@@ -4,3 +4,13 @@ h1{
     font-size: 60px;
     color: blueviolet
 }
+body{
+    background-color: rgb(204, 204, 207)
+}
+#titulo{
+    color: blueviolet;
+}
+.imagenes{
+    width: 400px;
+    height: 250px;
+}
