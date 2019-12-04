@@ -1,25 +1,45 @@
+*{
+margin: auto;
+}
+p{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
 h1{
     font-style: italic;
     font-weight: bold;
     font-size: 60px;
-    color: blueviolet
+    color: blueviolet;
+    text-align: center;
 }
 body{
-    background-color: rgb(204, 204, 207)
+    background-color: rgb(204, 204, 207);
+    text-align: center;
 }
-#titulo{
+#Titulo{
     color: blueviolet;
+    padding: 40px;
+    background-color: rgb(217, 177, 230)
 }
 .imagenes{
     width: 400px;
     height: 250px;
+    margin-top: 15px;
+    display: block;
 }
 a:hover{
 color: rgb(240, 237, 49);
 font-size: 30px;
-font-style: initial
+font-style: initial;
 }
 img:hover{
 width: 450px;
 height: 300px;
+}
+.hiper{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
