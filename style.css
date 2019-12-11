@@ -13,6 +13,9 @@ h1{
     font-size: 60px;
     color: blueviolet;
     text-align: center;
+    position: fixed;
+    right: 20px;
+    left: 20px;
 }
 body{
     background-color: rgb(204, 204, 207);
@@ -21,13 +24,17 @@ body{
 #Titulo{
     color: blueviolet;
     padding: 40px;
-    background-color: rgb(217, 177, 230)
+    background-color: rgb(217, 177, 230);
+z-index: 1;
 }
 .imagenes{
     width: 400px;
     height: 250px;
     margin-top: 15px;
     display: block;
+    position: relative;
+    top: 20px;
+    left: 40px;
 }
 a:hover{
 color: rgb(240, 237, 49);
@@ -43,3 +50,21 @@ height: 300px;
     margin-right: 20px;
     margin-top: 20px;
 }
+.cuadro3{
+    width: 170px;
+    height: 100px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(179, 141, 223, 0.5);
+
+    margin: 20px;
+
+    font-family:  fantasy;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+    
+
+    
