@@ -21,7 +21,7 @@ body{
     background-color: rgb(204, 204, 207);
     text-align: center;
 }
-#Titulo{
+#Titulo:first-letter{
     color: blueviolet;
     padding: 40px;
     background-color: rgb(217, 177, 230);
@@ -65,6 +65,28 @@ height: 300px;
     bottom: 20px;
     right: 40px;
 }
+    #mi-imagen1:hover{
+transition-duration: 2s;
+transition-timing-function:linear;
+transition-delay:0.02s;
+transform:translateZ(10px) scaleX(1.2); 
+filter: grayscale (80%);
+    }
+ #mi-imagen2:hover{
+    transition-duration: 3s;
+    transition-timing-function:linear;
+    transition-delay:0.03s;
+    transform:translateX(25px) scaleX(1.2); 
+    filter: grayscale (90%);
+        }
+#mi-imagen3:hover{
+    transition-duration: 1s;
+    transition-timing-function:linear;
+    transition-delay:0.01s;
+    transform:translateY(20px) scaleX(1.2); 
+    filter: grayscale (70%);
+        }
     
-
-    
+        #contenido{
+            transform: translateY(50px)
+        }
